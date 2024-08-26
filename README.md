@@ -75,10 +75,6 @@ Si el usuario ingresado no existe en la base de datos se devuelve un error y un 
 ![UsuarioNoRegistrado](https://github.com/user-attachments/assets/2f6e306f-8946-49b9-bf0a-d58be51c65bf)
 
 
-Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
-![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/abca7b8c-c09c-4cdb-8ecc-5a5dd7a07a5e)
-
-
 ## 6. Base de datos normalizada (Diagrama).
 
 ![diagrama entidad-relacion HUB](https://github.com/user-attachments/assets/118b3518-9f2f-48e1-86ea-63124f605131)
