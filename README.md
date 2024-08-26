@@ -65,9 +65,7 @@ Como parte de la calidad del software se realizan los testing correspondientes a
 ### Conexión con API REST desarrollada en ASP.NET Core 8 para acceder a base de datos realizada en SQL Server  
 **NOTA: La carpeta que contiene el proyecto de la API está en el siguiente enlace: [https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend)**
 
-En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: ```http://localhost:3000``` y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
-![RespuestaDesdeBackend](https://github.com/user-attachments/assets/9f88f3d2-8aa5-4c0a-ab0c-f7f25893db31)
-
+En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API
 
 Si el usuario y contraseña son correctas devuelve mensaje 'Sesión iniciada correctamente'
 ![SesionIniciadaCorrectamente](https://github.com/user-attachments/assets/3b593c7b-9caf-4e8b-ab9c-a820f427e13b)
