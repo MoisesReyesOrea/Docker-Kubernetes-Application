@@ -1,43 +1,43 @@
 # Compiled output
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/dist
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/tmp
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/out-tsc
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/bazel-out
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/dist
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/tmp
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/out-tsc
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/bazel-out
 
 # Node
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/node_modules
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/npm-debug.log
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/yarn-error.log
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/node_modules
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/npm-debug.log
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/yarn-error.log
 
 # IDEs and editors
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.idea/
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.project
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.classpath
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.c9/
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/*.launch
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.settings/
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/*.sublime-workspace
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.idea/
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.project
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.classpath
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.c9/
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/*.launch
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.settings/
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/*.sublime-workspace
 
 # Visual Studio Code
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.vscode/*
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/settings.json
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/tasks.json
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/launch.json
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/extensions.json
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.history/*
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.vscode/*
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/settings.json
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/tasks.json
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/launch.json
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/!.vscode/extensions.json
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.history/*
 
 # Miscellaneous
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.angular/cache
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.sass-cache/
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/connect.lock
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/coverage
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/libpeerconnection.log
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/testem.log
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/typings
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.angular/cache
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.sass-cache/
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/connect.lock
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/coverage
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/libpeerconnection.log
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/testem.log
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/typings
 
 # System files
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.DS_Store
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/Thumbs.db
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/.DS_Store
+Hub-de-Entretenimiento_Angularv16_MegaLiderly/Thumbs.db
 
 
 HubDeEntretenimientoMegaLiderlyBackend/appsettings.Development.json
