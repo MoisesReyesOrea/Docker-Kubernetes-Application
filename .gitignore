@@ -40,16 +40,16 @@
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/Thumbs.db
 
 
-./HubDeEntretenimientoMegaLiderlyBackend/appsettings.Development.json
+HubDeEntretenimientoMegaLiderlyBackend/appsettings.Development.json
 
 # Compiled object files
-./HubDeEntretenimientoMegaLiderlyBackend/*.o
-./HubDeEntretenimientoMegaLiderlyBackend/*.obj
-./HubDeEntretenimientoMegaLiderlyBackend/*.dll
-./HubDeEntretenimientoMegaLiderlyBackend/*.exe
+HubDeEntretenimientoMegaLiderlyBackend/*.o
+HubDeEntretenimientoMegaLiderlyBackend/*.obj
+HubDeEntretenimientoMegaLiderlyBackend/*.dll
+HubDeEntretenimientoMegaLiderlyBackend/*.exe
 
 # ASP.NET Core
-./HubDeEntretenimientoMegaLiderlyBackend/bin/
-./HubDeEntretenimientoMegaLiderlyBackend/obj/
+HubDeEntretenimientoMegaLiderlyBackend/bin/
+HubDeEntretenimientoMegaLiderlyBackend/obj/
 
-./HubDeEntretenimientoMegaLiderlyBackend/.vs
+HubDeEntretenimientoMegaLiderlyBackend/.vs
