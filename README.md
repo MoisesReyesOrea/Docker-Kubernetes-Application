@@ -26,6 +26,14 @@ El proceso de desarrollo estuvo compuesto por 5 fases, en las primeras 5 se desa
 
 -- Clona el repositorio haciendo ```git clone https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application.git``` o de manera alternativa descargalo como archivo ZIP y descomprimelo en una carpeta.  
 
+-- Instala de los paquetes y módulos requeridos ejecuta: ```npm install``` en la terminal de Visual Studio Code para Angular 16
+
+-- Instala de los paquetes y módulos requeridos para asp.net core:
+```dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0```  
+```dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.0```  
+```dotnet add package Microsoft.AspNetCore.App --version 8.0.0```  
+
+
 -- Ejecuta el servicio de Docker como por ejemplo docker-desktop o minikube   
 
 -- Creación de imágenes Docker, Abre la terminal en la dirección dentro de la carpeta del proyecto Angular y ejecuta el comando ```'docker build -t hub-de-entretenimiento_angularv16:1 .'``` esto creará la imagen con la configuración del archivo Dockerfile para la posterior creación del contenedor en los pods de kubernetes. Hacer lo mismo para la carpeta de ASP.NET con el comando ```'docker build -t aspnetcore8:1 .'``` y SQL Server ```'docker build -t sqlserver:1 .'```  
