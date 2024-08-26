@@ -51,3 +51,5 @@
 # ASP.NET Core
 ./HubDeEntretenimientoMegaLiderlyBackend/bin/
 ./HubDeEntretenimientoMegaLiderlyBackend/obj/
+
+./HubDeEntretenimientoMegaLiderlyBackend/.vs
