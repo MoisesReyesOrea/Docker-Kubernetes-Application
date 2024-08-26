@@ -85,8 +85,10 @@ Si el usuario sí existe en la BD pero la contraseña no coincide con la registr
 
 ## 6. Base de datos normalizada (Diagrama).
 
+![diagrama entidad-relacion HUB](https://github.com/user-attachments/assets/118b3518-9f2f-48e1-86ea-63124f605131)
 
 ## 7. Documentación de API ASP.NET Core 8 - Swagger
+
 
 
 ## 8. Archivos de configuración de ambientes, Docker y Kubernetes.
