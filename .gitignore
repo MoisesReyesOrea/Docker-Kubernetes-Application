@@ -5,7 +5,7 @@
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/bazel-out
 
 # Node
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly//node_modules
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/node_modules
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/npm-debug.log
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/yarn-error.log
 
@@ -27,13 +27,13 @@
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.history/*
 
 # Miscellaneous
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.angular/cache
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.sass-cache/
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/connect.lock
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/coverage
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/libpeerconnection.log
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/testem.log
-./Hub-de-Entretenimiento_Angularv16_MegaLiderly/./Hub-de-Entretenimiento_Angularv16_MegaLiderly/typings
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.angular/cache
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.sass-cache/
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/connect.lock
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/coverage
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/libpeerconnection.log
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/testem.log
+./Hub-de-Entretenimiento_Angularv16_MegaLiderly/typings
 
 # System files
 ./Hub-de-Entretenimiento_Angularv16_MegaLiderly/.DS_Store
