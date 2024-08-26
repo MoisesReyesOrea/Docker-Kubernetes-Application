@@ -83,9 +83,22 @@ Si el usuario sí existe en la BD pero la contraseña no coincide con la registr
 ![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/abca7b8c-c09c-4cdb-8ecc-5a5dd7a07a5e)
 
 
+## 6. Base de datos normalizada (Diagrama).
 
 
-## 6. Tabla con Sprint Review
+## 7. Documentación de API ASP.NET Core 8 - Swagger
+
+
+## 8. Archivos de configuración de ambientes, Docker y Kubernetes.
+
+
+## 9. Mejoras a futuro.
+
+
+## 10. Problemas conocidos.
+
+
+## 11. Sprint Review
 **¿Qué salio bien?**  
 - La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.
 
@@ -97,7 +110,4 @@ Si el usuario sí existe en la BD pero la contraseña no coincide con la registr
 
 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
