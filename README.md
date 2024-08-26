@@ -28,7 +28,7 @@ El proceso de desarrollo estuvo compuesto por 5 fases, en las primeras 5 se desa
 
 -- Instala de los paquetes y módulos requeridos ejecuta: ```npm install``` en la terminal de Visual Studio Code para Angular 16
 
--- Instala de los paquetes y módulos requeridos para asp.net core:
+-- Instala de los paquetes y módulos requeridos para asp.net core:  
 ```dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0```  
 ```dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.0```  
 ```dotnet add package Microsoft.AspNetCore.App --version 8.0.0```  
@@ -58,15 +58,8 @@ Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el mome
 
 ### Pruebas Unitarias
 Como parte de la calidad del software se realizan los testing correspondientes a los componentes y servicios de la aplicación.
-
-Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan pruebas que se encargan de verificar las validaciones de los datos ingresados en el formulario. 
-![Captura de pantalla 2024-07-25 121505](https://github.com/user-attachments/assets/a8fb64fe-e779-41d2-8b2c-128181423999)
-![Captura de pantalla 2024-07-25 121528](https://github.com/user-attachments/assets/e3158d34-f226-47bc-99bd-71f768c7bd8f)
-
-
-#### Reporte Code Coverage:
+##### Reporte Code Coverage:
 ![Captura de pantalla 2024-07-25 121104](https://github.com/user-attachments/assets/762c4499-7c74-4fb0-88b9-10e49c4915ae)
-
 
 
 ### Conexión con API REST desarrollada en ASP.NET Core 8 para acceder a base de datos realizada en SQL Server  
@@ -127,13 +120,13 @@ Solución: Usa comandos como docker system prune para limpiar recursos no utiliz
 
 ## 11. Sprint Review
 **¿Qué salio bien?**  
-- La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.  
+- La ejecución de la aplicación dentro de los contenedores fue completamente funcional .  
 
 **¿Qué puedo hacer diferente?**
 - Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.  
 
 **¿Qué no salio bien ?**  
-- El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.  
+- Al momento de implementar los contenedores en pods de kubernetes la ejecución de las aplicaciones y el acceso a ellas no fue como esperaba, me enfrente a problemas de comunicación y acceso a las mismas.   
 
 
 
