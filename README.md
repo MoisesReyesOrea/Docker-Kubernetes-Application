@@ -92,27 +92,40 @@ Se utilizó Swagger para documentar y probar cada funcion de las APIs:
 ## 8. Archivos de configuración de ambientes, Docker y Kubernetes.
 
 Los archivos Docker y .yaml se encuentran dentro de cada carpeta con la aplicación correspondiente. aquí los accesos directos:
-https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/Hub-de-Entretenimiento_Angularv16_MegaLiderly
-[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend)
-[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/Hub-de-Entretenimiento_Angularv16_MegaLiderly](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/Hub-de-Entretenimiento_Angularv16_MegaLiderly)
-[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/SQL%20Server%20Docker](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/SQL%20Server%20Docker)
+
+[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/Hub-de-Entretenimiento_Angularv16_MegaLiderly](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/Hub-de-Entretenimiento_Angularv16_MegaLiderly)  
+[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend)  
+[https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/SQL%20Server%20Docker](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/SQL%20Server%20Docker)  
+
 ## 9. Mejoras a futuro.
 
+La aplicación cuenta con los archivos necesarios para generar las imágenes, contenedores y pod de kubernetes, pero aún no está desplegada en algún servidor para que otros usuarios puedan utilizarla, está en proceso de desarrollo, una mejora puede ser el despliegue de la aplicación en un servidor.  
 
+La configuración de kubernetes está con especificaciones para dev, para desplegar será necesario contar con las especificaciones que deberá tener en un ambiente de producción.  
 
 ## 10. Problemas conocidos.
 
+1. Problemas de Permisos  
+Descripción: Los contenedores de Docker pueden tener problemas de permisos, especialmente al intentar acceder a archivos o directorios en el sistema host.  
+Solución: Asegúrate de configurar los volúmenes correctamente y ajustar los permisos de los archivos en el host para que el usuario dentro del contenedor tenga acceso. También, puedes ejecutar contenedores con diferentes usuarios utilizando la opción --user en Docker.  
 
+2. Problemas de Red y Conectividad  
+Descripción: La configuración de red en Docker puede ser compleja, y es común enfrentarse a problemas donde los contenedores no pueden comunicarse entre sí o con el exterior.  
+Solución: Verifica la configuración de red y asegúrate de que los contenedores estén conectados a la red correcta. Usa docker network para inspeccionar y administrar redes. En algunos casos, puede ser necesario crear redes personalizadas.  
+
+3. Acumulación de Imágenes y Contenedores Antiguos  
+Descripción: Docker no limpia automáticamente las imágenes, contenedores, volúmenes o redes no utilizados, lo que puede llevar a un uso innecesario de espacio en disco.  
+Solución: Usa comandos como docker system prune para limpiar recursos no utilizados, docker image prune para eliminar imágenes sin contenedores asociados, y docker volume prune para limpiar volúmenes no utilizados.  
 
 ## 11. Sprint Review
 **¿Qué salio bien?**  
-- La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.
+- La navegación entre componentes es fluida y dinámica, así como la comunicación entre ellos.  
 
 **¿Qué puedo hacer diferente?**
 - Se pudieran crear servicios, organizar mejor los componentes y modulos para reutilizar de una mejor manera el código, ademas de que se da una mejor eficiencia y facilidad de escalamiento a la aplicación.  
 
 **¿Qué no salio bien ?**  
-- El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.
+- El manejo de listas como: favoriteList, viewedList, popularList que son listas dinamicas que van agregando o eliminando elementos durante la ejecución y actualizar eso de manera reactiva no salio como esperaba.  
 
 
 
