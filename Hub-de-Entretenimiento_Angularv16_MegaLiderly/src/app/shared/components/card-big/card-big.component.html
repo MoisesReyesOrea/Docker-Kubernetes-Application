@@ -1,0 +1,58 @@
+<!-- <div class="item-info" > -->
+
+    <div class="card mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+        <div class="img1">
+        <img [src]="item.img" class="img-fluid rounded-start" alt="...">
+        </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+             -->
+              <h2 class="card-title">{{item.name}}</h2>
+              <h4 *ngIf="item.year">Año: {{item.year}}</h4>
+              <h4 *ngIf="item.date">Fecha: {{item.date}}</h4>
+              <h4 *ngIf="item.seasons">Director: {{item.director}}</h4>
+              <h4 *ngIf="item.seasons">Temporadas: {{item.seasons}}</h4>
+              <h4 *ngIf="item.episodes"> Episodios: {{item.episodes}}</h4>
+              <h4 *ngIf="item.genre">Género: {{item.genre}}</h4>
+              <h4 *ngIf="item.tournament">Torneo: {{item.tournament}}</h4>
+              <p class="card-description">{{item.description}}</p>
+              <div class="card-buttons">
+              <a  class="btn btn-primary" (click)="goto($event)" >Ver</a>
+              <a  class="btn btn-secondary"  data-bs-toggle="modal" data-bs-target="#alert">Ocultar</a>
+              <a  class="btn btn-secondary bton-favorites" (click)="addFavorites()">Añadir a favoritos</a>
+              
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <app-carousel-header></app-carousel-header> -->
+    
+    <!-- </div> -->
+    
+    
+    <div class="modal" tabindex="-1" id="alert">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Confirmación</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>¿Deseas ocultar?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" (click)="hide($event)">Ocultar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>

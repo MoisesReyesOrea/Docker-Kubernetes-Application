@@ -1,0 +1,59 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "name": "España vs Inglaterra",
+            "date": "domingo 14 de julio 2024",
+            "tournament": "Eurocopa",
+            "genre": "futbol",
+            "type": "sport",
+            "description": "España e Inglaterra se enfrentarán en la gran final de la Eurocopa 2024. El partido, será en el Estadio Olímpico de Berlín, promete ser un emocionante duelo entre dos de las selecciones más emblemáticas de Europa.",
+            "img": "./../../assets/images_app/España-Inglaterra.jpg",
+            "hide": false
+        },
+        {
+            "_id": 2,
+            "name": "F1 GP de México",
+            "date": "Domingo 27 Oct 2024",
+            "tournament": "2024",
+            "genre": "Fórmula 1",
+            "type": "sport",
+            "description": "El Gran Premio de la Ciudad de México es una carrera de automovilismo válida para el Campeonato Mundial de Fórmula 1 que se disputa anualmente con monoplazas en el Autódromo Hermanos Rodríguez de la Ciudad de México, México.",
+            "img": "./../../assets/images_app/F1-gpMexico.jpg",
+            "hide": false
+        },
+        {
+            "_id": 3,
+            "name": "Apertura Paris 2024",
+            "date": "26 de julio de 2024",
+            "tournament": "Olimpiadas 2024",
+            "genre": "juegos Olimpicos",
+            "type": "sport",
+            "description": "10,500 atletas de 206 comités olímpicos nacionales disputarán sus habilidades en recintos históricos y culturales franceses como el Castillo de Versalles y el Champ de Mars (frente a la Torre Eiffel) al igual que en estadios de Niza y Marsella.",
+            "img": "./../../assets/images_app/Olimpiadas-Paris2024.jpg",
+            "hide": false
+        },
+        {
+            "_id": 4,
+            "name": "Argentina vs Colombia",
+            "date": "domingo 14 de julio 2024",
+            "tournament": "Copa america",
+            "genre": "futbol",
+            "type": "sport",
+            "description": "Argentina y Colombia definirán el próximo domingo 14 de julio al campéon de la Copa América 2024. La final se jugará en el Hard Rock Stadium de Miami",
+            "img": "./../../assets/images_app/Argentina-Colombia.jpg",
+            "hide": false
+        },
+        {
+            "_id": 5,
+            "name": "Francia vs España",
+            "date": "Domingo 27 Oct 2024",
+            "tournament": "Eurocopa",
+            "genre": "futbol",
+            "type": "sport",
+            "description": "España y Francia se enfrentaron en la primera semifinal de la Eurocopa 2024 en Alemania. Como se esperaba este fue un gran partido de fútbol, los de Mbappé y Deschamps salieron al campo con ganas de impresionar al favorito, España. Sin embargo, La Furia Roja no se dejó intimidar, y aún menos, cambiar la forma de juego que le caracteriza.",
+            "img": "./../../assets/images_app/Francia-Espana.jpg",
+            "hide": false
+        }
+    ]
+}

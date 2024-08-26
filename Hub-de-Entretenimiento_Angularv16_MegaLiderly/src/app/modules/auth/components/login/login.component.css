@@ -1,0 +1,99 @@
+.login{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    min-height: 100vh;
+}
+.form-login{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.login-form{
+    /* border: solid; */
+    text-align: center;
+    width: 500px;
+    height: 330px;
+    margin: 20px;
+}
+.login-form label{
+    font-size: 20px;
+    margin: 5px;
+    display: block;
+    justify-content: center;
+}
+.login-form input{
+    width: 230px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+}
+.login-form-footer{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+}
+.login-form a{
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-form button{
+    display: block;
+    margin: 10px 0px;
+    font-size: 15px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: beige;
+    background-color: rgb(50, 82, 59);
+    cursor: pointer;
+    margin: 10px;
+}
+.login-form button:hover{
+    background-color: rgb(78, 96, 78);
+}
+
+.img-login{
+    margin: 20px;
+}
+
+.img-login img{
+    width: 600px;
+}
+
+input.ng-invalid.ng-touched {
+    border: solid 2px red !important;
+}
+input.ng-valid.ng-touched {
+    border: solid 2px green !important;
+}
+button:disabled{
+    opacity: .6;
+}
+
+@media only screen and (max-width: 992px) {
+    .img-login img{
+        width: 500px;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .img-login img{
+        width: 300px;
+    }
+    .login-form{
+        /* border: solid; */
+        text-align: center;
+        width: 350px;
+        height: 330px;
+        margin: 20px;
+    }
+}

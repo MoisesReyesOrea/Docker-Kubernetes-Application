@@ -1,0 +1,47 @@
+.card{
+    display:grid;
+    place-items: center;
+    align-items: center;
+    margin: 20px 0px;
+    border: solid;
+    height: 580px;
+    background-color: rgb(94, 212, 185);
+}
+.card-body{
+    height: 290px;
+    padding-top: 0px;
+}
+.card-body h2{
+    text-align: center;
+    margin: 0px;
+}
+.card-body h4{
+    margin: 0px;
+    font-size: 10px;
+    padding: 0px;
+    line-height: 15px;
+}
+.card-body p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.img-size{
+    width: 200px;
+    height: 250px;
+}
+.card-buttons{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.btn{
+    margin: 10px;
+    width: 80px;
+    height: 35px;
+
+}
+.card-description{
+    height: 135px;
+}

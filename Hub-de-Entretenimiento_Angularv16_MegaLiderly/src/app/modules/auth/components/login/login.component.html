@@ -1,0 +1,28 @@
+<div class="login">
+    
+    <div class="img-login">
+        <img src="./../../assets/images_app/amigosTV.jpg" alt="friends-watching-tv">
+    </div>
+
+    <div class="login-form">
+        <h1>¡Bienvenido!</h1>
+        <form (ngSubmit)="sendLogin()" class="form-login" [formGroup]="formLogin">
+            <label for="e-mail">Correo electrónico</label>
+            <input type="text" id="e-mail" formControlName="email">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" formControlName="password">
+            <button type="button" (click)="sendLogin()" id="login-button" [disabled]="formLogin.invalid">Iniciar sesión</button>
+        </form>
+
+        <!-- <form action=""></form> -->
+        <div *ngIf="errorSession">
+            <h4 style="font-weight: bold; color: rgb(208, 16, 16);">Ocurrio un error con tu email o password</h4>
+        </div>
+
+        <div class="login-form-footer">
+            <a>¿Olvidaste tu contraseña?</a>
+            <button [routerLink]="['/','auth','signup']">Suscribirse</button>
+        </div>
+    </div>
+
+</div>

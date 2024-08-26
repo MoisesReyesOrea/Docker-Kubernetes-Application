@@ -1,0 +1,11 @@
+<div class="section--generic">
+    <h1>Deportes</h1>
+
+    <div class="section--generic__player--zone">
+        <ul class="player--list">
+            <li *ngFor="let sport of sportsList">
+                <app-card [item]="sport"></app-card>
+            </li>
+        </ul>
+    </div>
+</div>

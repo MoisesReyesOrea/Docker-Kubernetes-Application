@@ -1,0 +1,31 @@
+.card{
+    height: 350px;
+    padding-left: 10px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background-color:aquamarine;
+}
+h2,h4,p {
+    margin: 0px 5px;
+}
+.card-description{
+    margin: 10px 0px;
+}
+img{
+    height: 250px;
+    width: 200px;
+}
+.col-md-4{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.card-buttons{
+    display: block;
+    text-align: center;
+}
+.btn{
+    margin: 0px 20px;
+    width: 100px;
+}

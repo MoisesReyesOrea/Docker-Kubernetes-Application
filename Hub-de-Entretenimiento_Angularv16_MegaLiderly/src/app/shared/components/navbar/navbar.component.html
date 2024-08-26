@@ -1,0 +1,41 @@
+<!-- <div class="navbar">
+    <a [routerLink]="['/','home']">Inicio</a>
+    <a [routerLink]="['/','movies']">Películas</a>
+    <a [routerLink]="['/','series']">Series</a>
+    <a [routerLink]="['/','sports']">Deportes</a>
+    <a [routerLink]="['/','favorites']">Favoritos</a>
+    <a [routerLink]="['/','history']">Historial</a>
+    <a id="logOut" [routerLink]="['/','auth','login']">Cerrar sesión</a>
+</div> -->
+
+  <nav class="navbar fixed-bottom navbar-expand-xl">
+    <div class="container-fluid">
+      <a [routerLink]="['/']">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse dropdown-menu-bottom" id="navbarNav">
+        <ul class="navbar-nav">
+          <li >
+            <a [routerLink]="['/','movies']">Películas</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/','series']">Series</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/','sports']">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/','favorites']">Favoritos</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/','history']">Historial</a>
+          </li>
+          <li class="nav-item">
+            <a id="logOut" [routerLink]="['/','auth','login']">Cerrar sesión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

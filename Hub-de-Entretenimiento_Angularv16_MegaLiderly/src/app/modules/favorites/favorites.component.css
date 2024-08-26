@@ -1,0 +1,54 @@
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.section--generic {
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.section--generic__player--zone .player--list {
+    display: grid;
+    list-style: none;
+    place-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.section--generic__player--zone .player--list {
+    grid-template-columns: repeat(4, 1fr);
+}
+@media only screen and (max-width: 1445px) {
+    .section--generic__player--zone .player--list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .section--generic__player--zone .player--list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section--generic__player--zone .player--list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .section--generic {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 360px) {
+
+    .section--generic {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

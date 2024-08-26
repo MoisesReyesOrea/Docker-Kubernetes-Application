@@ -1,0 +1,12 @@
+
+<div class="section--generic">
+    <h1>Favoritos</h1>
+
+    <div class="section--generic__player--zone">
+        <ul class="player--list">
+            <li *ngFor="let item of favoriteList" >
+                <app-card [item]="item" ></app-card>
+            </li>
+        </ul>
+    </div>
+</div>

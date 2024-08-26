@@ -1,0 +1,20 @@
+/* .card-size{
+    width: 500px;
+} */
+.carousel-wrapper{
+    width: 40%;
+}
+.carousel {
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+/* .carousel-wrapper{
+    
+} */
+/* .wrapper{
+    display: grid;
+    place-items: center;
+    align-items: center;
+} */

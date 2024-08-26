@@ -1,0 +1,11 @@
+<div class="section--generic">
+    <h1>Series</h1>
+
+    <div class="section--generic__player--zone">
+        <ul class="player--list">
+            <li *ngFor="let serie of seriesList">
+                <app-card [item]="serie"></app-card>
+            </li>
+        </ul>
+    </div>
+</div>

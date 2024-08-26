@@ -1,0 +1,69 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "name": "La Casa del Dragón",
+            "seasons": 2,
+            "episodes": 20,
+            "year": 2022,
+            "director": "Clare Kilner; Geeta Patel; Miguel Sapochnik",
+            "genre": "drama",
+            "type": "pelicula",
+            "description": "La historia de la familia Targaryen, 200 años antes de los eventos que tuvieron lugar en Game of Thrones.",
+            "img": "./../../assets/images_app/casa-del-dragon.jpg",
+            "hide": false
+        },
+        {
+            "_id": 2,
+            "name": "The Last of Us",
+            "seasons": 1,
+            "episodes": 9,
+            "year": 2023,
+            "director": "Bruce Straley; Neil Druckmann",
+            "genre": "drama",
+            "type": "pelicula",
+            "description": "Joel y Ellie, dos personas conectadas por la brutalidad del mundo en el que viven, se ven obligados a enfrentarse a criaturas y asesinos despiadados, mientras viajan a través de un Estados Unidos posapocalíptico.",
+            "img": "./../../assets/images_app/The-last-of-us.jpg",
+            "hide": false
+        },
+        {
+            "_id": 3,
+            "name": "Juego de tronos",
+            "seasons": 8,
+            "episodes": 73,
+            "year": 2011,
+            "director": "Mark Mylod, Alex Graves",
+            "genre": "aventura",
+            "type": "pelicula",
+            "description": "La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales: la crónica de la guerra por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de los otros; y el viaje de Daenerys Targaryen",
+            "img": "./../../assets/images_app/juego-de-tronos.png",
+            "hide": true
+        },
+        {
+            "_id": 4,
+            "name": "Euphoria",
+            "seasons": 2,
+            "episodes": 16,
+            "year": 2019,
+            "director": "Drake, Ron Leshem, Kevin Turen,",
+            "genre": "drama",
+            "type": "serie",
+            "description": "Un grupo de estudiantes de secundaria navega entre drogas, relaciones sexuales, traumas, redes sociales, amor y amistad.",
+            "img": "./../../assets/images_app/Euphoria.jpg",
+            "hide": false
+        },
+        {
+            "_id": 5,
+            "name": "Mr. Robot",
+            "seasons": 4,
+            "episodes": 45,
+            "year": 2015,
+            "director": "Sam Esmail",
+            "genre": "suspenso",
+            "type": "serie",
+            "description": "Elliot Alderson, un brillante programador con problemas de ansiedad social, trabaja como ingeniero de ciberseguridad de día y como justiciero de noche. Su vida da un giro cuando unos ciberterroristas lo reclutan.",
+            "img": "./../../assets/images_app/Mr-Robot.jpg",
+            "hide": false
+        }
+    ]
+}
