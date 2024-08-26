@@ -10,7 +10,8 @@ Crear una aplicación para la visualización de contenido de entretenimiento com
 ## 2. Requerimientos técnicos:  
 Docker: Se debe tener un entorno capaz de ejecutar docker y kubernetes para correr la aplicacion, puede ser Docker-desktop.  
 - Docker-Desktop: es una aplicación que proporciona una forma sencilla y eficiente de desarrollar, probar y ejecutar aplicaciones en contenedores en un entorno local. Está disponible para sistemas operativos Windows y macOS, y actúa como una interfaz de usuario gráfica para Docker, permitiendo a los desarrolladores interactuar con Docker y Kubernetes.  
-GIT: Debe tener Instalado GIT si desea clonar el proyecto.
+
+GIT: Debe tener Instalado GIT si desea clonar el proyecto.  
 
 ## 3. Proceso de desarrollo
 
@@ -24,8 +25,11 @@ El proceso de desarrollo estuvo compuesto por 5 fases, en las primeras 5 se desa
 ## 4. ¿Cómo ejecutar la aplicación?
 
 -- Clona el repositorio haciendo ```git clone https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application.git``` o de manera alternativa descargalo como archivo ZIP y descomprimelo en una carpeta.  
+
 -- Ejecuta el servicio de Docker como por ejemplo docker-desktop o minikube   
+
 -- Creación de imágenes Docker, Abre la terminal en la dirección dentro de la carpeta del proyecto Angular y ejecuta el comando ```'docker build -t hub-de-entretenimiento_angularv16:1 .'``` esto creará la imagen con la configuración del archivo Dockerfile para la posterior creación del contenedor en los pods de kubernetes. Hacer lo mismo para la carpeta de ASP.NET con el comando ```'docker build -t aspnetcore8:1 .'``` y SQL Server ```'docker build -t sqlserver:1 .'```  
+
 -- Creación de los Pods Kubernetes, en la misma terminal ejecuta los siguientes comandos ```'kubectl apply -f deployment.yaml'```  ```'kubectl apply -f asp-deployment.yaml'``` ```'kubectl apply -f sql-deployment.yaml'``` , esto creará los pod.  
 -- La aplicación ya se estará ejecutando, abre el navegador y ve a la dirección `http://localhost:31000/` la aplicación se ejecutará en este enlace.  
 
