@@ -36,9 +36,6 @@ El proceso de desarrollo estuvo compuesto por 5 fases, en las primeras 5 se desa
 
 
 ## 5. Explicación  
-Para correr la aplicación se ejecuta el comando ```'npm start'```, esta imágen muestra el server en ejecucion para el funcionamiento de la aplicación.
-![ejecucion](https://github.com/user-attachments/assets/1fb79272-7f6f-4588-aa74-1d883f188433)
-
 
 Página de inicio de sesión, los campos de ingreso de datos cuentan con validaciones que deberán ser cumplidas para habilitar el boton de inicio de sesión y así entrar a la aplicación
 ![inicio-de-sesion](https://github.com/user-attachments/assets/e65a4703-e9eb-452d-bf50-f32066e4c494)
@@ -64,8 +61,8 @@ Codigo para el testing de la sección 'LOGIN' de la aplicacion, se ejecutan prue
 
 
 
-### Conexión con API REST desarrollada en express.js para acceder a base de datos realizada en SQL Server  
-**NOTA: El repositorio que contiene el proyecto de la API y la Base de datos está en el siguiente enlace: https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA**
+### Conexión con API REST desarrollada en ASP.NET Core 8 para acceder a base de datos realizada en SQL Server  
+**NOTA: La carpeta que contiene el proyecto de la API está en el siguiente enlace: [https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA](https://github.com/MoisesReyesOrea/Docker-Kubernetes-Application/tree/main/HubDeEntretenimientoMegaLiderlyBackend)**
 
 En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: ```http://localhost:3000``` y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
 ![RespuestaDesdeBackend](https://github.com/user-attachments/assets/9f88f3d2-8aa5-4c0a-ab0c-f7f25893db31)
@@ -94,10 +91,13 @@ Si el usuario sí existe en la BD pero la contraseña no coincide con la registr
 ## 8. Archivos de configuración de ambientes, Docker y Kubernetes.
 
 
+
 ## 9. Mejoras a futuro.
 
 
+
 ## 10. Problemas conocidos.
+
 
 
 ## 11. Sprint Review
